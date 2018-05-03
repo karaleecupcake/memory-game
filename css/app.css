@@ -32,7 +32,7 @@ body {
 }
 
 h1 {
-    font-family: 'Papyrus', sans-serif;
+    font-family: "papyrus", sans-serif;
     font-weight: 300;
 }
 
@@ -41,7 +41,7 @@ h1 {
 .deck {
     width: 660px;
     min-height: 680px;
-    background: linear-gradient(160deg, #409AB7 0%, #78CC5A 100%);
+    background: linear-gradient(160deg, #409ab7 0%, #78cc5a 100%);
     padding: 32px;
     border-radius: 10px;
     box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
@@ -68,7 +68,7 @@ h1 {
 
 .deck .card.open {
     transform: rotateY(0);
-    background: #E9A5C6;
+    background: #e9a5c6;
     cursor: default;
     pointer-events: none;
 }
@@ -79,22 +79,22 @@ h1 {
 
 .deck .card.match {
     cursor: default;
-    background: #646E95;
+    background: #646e95;
     font-size: 33px;
 }
 
 .deck .card.wrong {
   cursor: default;
-  background: #A52C1F;
+  background: #a52c1f;
 }
 
-/* Styles for the Score Panel */
+/* Styles for the score panel */
 
 .score-panel {
     text-align: left;
     width: 345px;
     margin-bottom: 10px;
-    font-family: 'Papyrus', sans-serif;
+    font-family: "papyrus", sans-serif;
     font-size: 18px;
 }
 
@@ -124,7 +124,7 @@ h1 {
   display: inline-block;
 }
 
-/* Styles for winning modal */
+/* Styles for the winning modal */
 
 .modal {
   display: none;
@@ -142,9 +142,9 @@ h1 {
   justify-content: center;
   text-align: center;
   padding: 20px;
-  background: linear-gradient(160deg, #F7BBC9 0%, #B83D6B 100%);
+  background: linear-gradient(160deg, #f7bbc9 0%, #b83d6b 100%);
   font-size: 20px;
-  font-family: 'Papyrus', sans-serif;
+  font-family: "papyrus", sans-serif;
 }
 
 .inlineStars li {
@@ -154,13 +154,13 @@ h1 {
 }
 
 #playAgain {
-  background-color: #FCF0DD;
+  background-color: #fcf0dd;
   padding: 15px;
   width: 50%;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Papyrus', sans-serif;
+  font-family: "papyrus", sans-serif;
   cursor: pointer;
 }
 
