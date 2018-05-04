@@ -167,3 +167,37 @@ h1 {
 .replay {
   cursor: pointer;
 }
+
+/* Media queries */
+@media screen and (max-width: 450px) {
+  .deck {
+    max-width: 90%;
+  }
+  .card {
+    max-width: 22%;
+  }
+  .score-panel {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .deck {
+    max-width: 95%;
+  }
+  .card {
+    max-width: 23%;
+  }
+  .score-panel {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .deck {
+    max-width: 100%;
+  }
+  .card {
+    max-width: 25%;
+  }
+}
